@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Cuidados para Mascotas</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="img/logo.svg" alt="Logo del sitio" class="logo">
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#clinica">Clínica</a></li>
+                <li><a href="#farmacia">Farmacia</a></li>
+                <li><a href="#kinesiologia">Kinesiología</a></li>
+                <li><a href="#tecnologia-medica">Tecnología Médica</a></li>
+                <li><a href="#duvidas">Preguntas Frecuentes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de bienvenida -->
+        <section id="inicio" class="welcome-section">
+            <img src="img/start-img.svg" alt="Imagen de una mujer jugando con un perro" class="welcome-image">
+            <div class="welcome-content">
+                <h1>Asegura una vida larga y llena de alegría para tu mejor amigo.</h1>
+                <p class="paragrafo">Petlife es tu refugio de confianza para el cuidado integral de tu mascota. Con profesionales dedicados y servicios completos, ofrecemos una experiencia acogedora y personalizada, garantizando el bienestar, la salud y la felicidad de tus mascotas. Nos enorgullece ofrecer una atención de calidad que cubre todas las necesidades de tus compañeros peludos y de plumas.</p>
+                <div class="button-group">
+                    <a class="botao" href="https://wa.me/+56975310136" target="_blank">Reserva una consulta</a>
+                    <a class="botao-transparente" href="#clinica">Conoce nuestra clínica</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Clínica -->
+        <section id="clinica" class="service-section">
+            <h2>Nuestra Clínica Veterinaria</h2>
+            <p>En Petlife, contamos con las últimas tecnologías en diagnóstico y tratamiento médico para el cuidado de tu mascota. Nuestra clínica está diseñada para proporcionar un entorno seguro y cómodo, donde cada mascota se siente valorada y atendida.</p>
+            <img src="img/clinic-img.svg" alt="Imagen de la clínica veterinaria" class="service-image">
+            <button class="botao" onclick="toggleContent('clinica-extra')">Más información</button>
+            <div id="clinica-extra" class="extra-content">
+                <p>Utilizamos equipos de última generación como ecografías, rayos X digitales y laboratorios especializados para análisis rápidos y precisos. Nuestro equipo está compuesto por veterinarios altamente capacitados y experimentados, listos para brindar atención integral a tu mascota. Realizamos desde consultas generales hasta intervenciones quirúrgicas complejas, siempre priorizando la salud y seguridad de tus animales.</p>
+                <p>Además, ofrecemos un ambiente amigable, donde podrás acompañar a tu mascota durante su visita. Creemos que un enfoque familiar ayuda a reducir el estrés y mejora la experiencia tanto para los dueños como para sus mascotas.</p>
+            </div>
+        </section>
+
+        <!-- Sección Farmacia -->
+        <section id="farmacia" class="service-section">
+            <h2>Farmacia Especializada</h2>
+            <p>Encuentra los medicamentos que tu mascota necesita, desde vacunas hasta tratamientos personalizados. Nuestra farmacia está equipada con un amplio surtido de productos y medicinas de calidad, asegurando que tu mascota reciba el mejor tratamiento disponible.</p>
+            <img src="img/shop-img.svg" alt="Imagen de la farmacia veterinaria" class="service-image">
+            <button class="botao" onclick="toggleContent('farmacia-extra')">Más información</button>
+            <div id="farmacia-extra" class="extra-content">
+                <p>Trabajamos con los mejores laboratorios veterinarios para ofrecer productos de calidad y eficacia comprobada. Además, tenemos un equipo dispuesto a asesorarte sobre el medicamento adecuado para tu mascota. Desde vitaminas hasta tratamientos para enfermedades crónicas, estamos aquí para ayudarte en cada paso del camino.</p>
+                <p>Nuestra farmacia no solo se centra en la venta de medicamentos, sino también en la educación de los propietarios sobre el uso adecuado de estos productos, asegurando que cada mascota reciba el tratamiento necesario para su bienestar.</p>
+            </div>
+        </section>
+
+        <!-- Sección Kinesiología y Rehabilitación Veterinaria -->
+        <section id="kinesiologia" class="service-section">
+            <h2>Kinesiología y Rehabilitación</h2>
+            <p>Nuestra clínica ofrece servicios avanzados de kinesiología y rehabilitación, ayudando a las mascotas a recuperarse de lesiones musculares o articulares. Entendemos que la recuperación es un proceso delicado y es fundamental abordarlo con cuidado y profesionalismo.</p>
+            <img src="img/REA.png" alt="Imagen de rehabilitación de mascotas" class="service-image">
+            <button class="botao" onclick="toggleContent('kinesiologia-extra')">Más información</button>
+            <div id="kinesiologia-extra" class="extra-content">
+                <p>Contamos con equipos de fisioterapia especializados, como electroestimulación y ejercicios terapéuticos. Nuestros fisioterapeutas están altamente capacitados para diseñar un plan de recuperación adaptado a las necesidades de cada mascota. Trabajamos en conjunto con los dueños para garantizar que cada mascota reciba la atención necesaria en casa, complementando así el tratamiento en la clínica.</p>
+                <p>Ya sea que tu mascota haya sufrido una cirugía, una lesión o simplemente necesite ayuda para mantenerse activa en su vejez, estamos aquí para ayudar. Nuestro objetivo es asegurar que cada mascota tenga una recuperación completa y exitosa.</p>
+            </div>
+        </section>
+
+        <!-- Sección Tecnología Médica -->
+        <section id="tecnologia-medica" class="service-section">
+            <h2>Tecnología Médica en Veterinaria</h2>
+            <p>El uso de tecnología avanzada en medicina veterinaria es crucial para un diagnóstico preciso y rápido. En Petlife, utilizamos los últimos avances tecnológicos para asegurar que cada diagnóstico sea lo más exacto posible.</p>
+            <img src="img/lab.png" alt="Equipos médicos veterinarios" class="service-image">
+            <button class="botao" onclick="toggleContent('tecnologia-extra')">Más información</button>
+            <div id="tecnologia-extra" class="extra-content">
+                <p>Contamos con equipos como tomografía computarizada, resonancia magnética y sistemas de monitoreo cardíaco en tiempo real. Estos equipos permiten realizar diagnósticos más acertados y proporcionar el mejor cuidado médico a tus mascotas. Nuestro enfoque proactivo en la detección temprana de problemas de salud garantiza que cada mascota reciba la atención que necesita antes de que se convierta en un problema mayor.</p>
+                <p>La combinación de tecnología avanzada y un equipo profesional altamente calificado nos permite ofrecer a nuestros pacientes la mejor atención veterinaria disponible.</p>
+            </div>
+        </section>
+
+        <!-- Sección Preguntas Frecuentes -->
+        <section id="duvidas" class="faq-section">
+            <h2>Preguntas Frecuentes</h2>
+            <p>Si tienes alguna duda sobre nuestros servicios o necesitas más información, <span class="link-contacto" onclick="scrollToContacto()">visita nuestra sección de preguntas frecuentes</span> o <span class="link-contacto" onclick="scrollToContacto()">contáctanos directamente</span>. Nuestro objetivo es ofrecerte toda la información necesaria para que tomes decisiones informadas sobre el cuidado de tu mascota.</p>
+            <img src="img/faq-img.svg" alt="Imagen de preguntas frecuentes" class="faq-image">
+
+            <div class="faq-container">
+                <div class="duvida">
+                    <h3 class="faq-question" onclick="toggleFAQ(this)">¿Qué vacunas necesita mi mascota?</h3>
+                    <p class="faq-answer">Las vacunas que necesita tu mascota dependen de su edad, especie y estado de salud. Generalmente, las vacunas más comunes son la rabia, parvovirus y moquillo para perros, y la leucemia y rabia para gatos.</p>
+                </div>
+                <div class="duvida">
+                    <h3 class="faq-question" onclick="toggleFAQ(this)">¿Qué debo hacer si mi mascota está enferma?</h3>
+                    <p class="faq-answer">Si notas que tu mascota tiene síntomas inusuales, como letargo, falta de apetito o vómitos, te recomendamos que nos contactes de inmediato para una evaluación. No esperes a que los síntomas empeoren.</p>
+                </div>
+                <div class="duvida">
+                    <h3 class="faq-question" onclick="toggleFAQ(this)">¿Cuándo debo llevar a mi mascota al veterinario?</h3>
+                    <p class="faq-answer">Es recomendable llevar a tu mascota al veterinario al menos una vez al año para chequeos de rutina. También debes llevarla si notas algún comportamiento extraño o cambios en su salud.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de contacto -->
+        <section id="contacto" class="contact-section">
+            <h2>Contacto</h2>
+            <p>Si tienes preguntas adicionales, no dudes en ponerte en contacto con nosotros a través del siguiente formulario:</p>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit" class="botao">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <!-- Modal de éxito -->
+        <div id="success-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p id="modal-message">Gracias, tu mensaje ha sido enviado.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Veterinaria Cuidados para Mascotas.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

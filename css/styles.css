@@ -1,0 +1,206 @@
+/* estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #005d73;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #fb9300; /* Cambia a dorado al pasar el mouse */
+}
+
+.welcome-section {
+    display: flex;
+    padding: 40px;
+    background-color: #e9f8f8;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.welcome-image {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.welcome-content {
+    padding: 20px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.botao, .botao-transparente {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao {
+    background-color: #005d73;
+    color: white;
+}
+
+.botao:hover {
+    background-color: #ff8c00; /* Cambia a dorado al pasar el mouse */
+}
+
+.botao-transparente {
+    background-color: transparent;
+    border: 2px solid #005d73;
+    color: #005d73;
+}
+
+.botao-transparente:hover {
+    background-color: #005d73;
+    color: white;
+}
+
+.service-section {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-image {
+    width: 30%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.service-image:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.extra-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.faq-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.faq-container {
+    margin-top: 20px;
+}
+
+.faq-question {
+    cursor: pointer;
+    color: #005d73;
+    transition: color 0.3s;
+}
+
+.faq-question:hover {
+    color: #ffae00; /* Cambia a dorado al pasar el mouse */
+}
+
+.faq-answer {
+    display: none;
+    margin: 10px 0;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed; /* Mantener el modal en la pantalla */
+    z-index: 1; /* Colocar el modal encima */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    overflow: auto; /* Agregar scroll si es necesario */
+    background-color: rgb(0, 0, 0); /* Fondo negro */
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con opacidad */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% desde la parte superior y centrado */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del modal */
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #005d73;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.social-media { 
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+}
